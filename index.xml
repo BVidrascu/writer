@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>My New Hugo Site</title>
-    <link>https://bogdanvidrascu.com/writer/</link>
+    <link>https://blog.bogdanvidrascu.com/</link>
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- 0.147.7</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 04 Jun 2025 00:47:58 +0300</lastBuildDate>
-    <atom:link href="https://bogdanvidrascu.com/writer/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.bogdanvidrascu.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Before</title>
-      <link>https://bogdanvidrascu.com/writer/posts/before/</link>
+      <link>https://blog.bogdanvidrascu.com/posts/before/</link>
       <pubDate>Wed, 04 Jun 2025 00:47:58 +0300</pubDate>
-      <guid>https://bogdanvidrascu.com/writer/posts/before/</guid>
+      <guid>https://blog.bogdanvidrascu.com/posts/before/</guid>
       <description>&lt;p&gt;Sometimes you have to find new ways to write in order to put in order thoughts you have thought in a worse system.&lt;/p&gt;</description>
     </item>
   </channel>
