@@ -2,17 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Bogdan Vidrascu&#39;s Blog</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://blog.bogdanvidrascu.com/posts/</link>
     <description>Recent content in Posts on Bogdan Vidrascu&#39;s Blog</description>
     <generator>Hugo -- 0.147.7</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 04 Jun 2025 00:47:58 +0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 04 Jun 2025 02:03:20 +0300</lastBuildDate>
+    <atom:link href="https://blog.bogdanvidrascu.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First</title>
+      <link>https://blog.bogdanvidrascu.com/posts/first/</link>
+      <pubDate>Wed, 04 Jun 2025 02:03:20 +0300</pubDate>
+      <guid>https://blog.bogdanvidrascu.com/posts/first/</guid>
+      <description>&lt;p&gt;You know, sometimes the first step is the easiest. You hear and see so many new things, you detach from the inner workings of yourself. You take in the otherness as being the center of the real and forget existing.&lt;/p&gt;
+&lt;p&gt;otherwise&lt;/p&gt;
+&lt;p&gt;you might just see yourself through.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Before</title>
-      <link>http://localhost:1313/posts/before/</link>
+      <link>https://blog.bogdanvidrascu.com/posts/before/</link>
       <pubDate>Wed, 04 Jun 2025 00:47:58 +0300</pubDate>
-      <guid>http://localhost:1313/posts/before/</guid>
+      <guid>https://blog.bogdanvidrascu.com/posts/before/</guid>
       <description>&lt;p&gt;Sometimes you have to find new ways to write in order to put in order thoughts you have thought in a worse system.&lt;/p&gt;</description>
     </item>
   </channel>
