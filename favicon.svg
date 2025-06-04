@@ -1,24 +1,37 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
   <defs>
     <style>
+      .web-line { stroke: #2c3e50; stroke-width: 1; fill: none; }
+      .web-thick { stroke: #34495e; stroke-width: 1.5; fill: none; }
+      .center { fill: #e74c3c; }
       .node { fill: #2c3e50; }
-      .connection { stroke: #34495e; stroke-width: 1.5; fill: none; }
-      .highlight { fill: #e74c3c; }
     </style>
   </defs>
   
-  <!-- Network connections -->
-  <line class="connection" x1="8" y1="8" x2="16" y2="16"/>
-  <line class="connection" x1="16" y1="16" x2="24" y2="8"/>
-  <line class="connection" x1="16" y1="16" x2="24" y2="24"/>
-  <line class="connection" x1="8" y1="24" x2="16" y2="16"/>
-  <line class="connection" x1="8" y1="8" x2="8" y2="24"/>
-  <line class="connection" x1="24" y1="8" x2="24" y2="24"/>
+  <!-- Radial web lines -->
+  <line class="web-thick" x1="16" y1="16" x2="16" y2="4"/>
+  <line class="web-thick" x1="16" y1="16" x2="28" y2="16"/>
+  <line class="web-thick" x1="16" y1="16" x2="16" y2="28"/>
+  <line class="web-thick" x1="16" y1="16" x2="4" y2="16"/>
+  <line class="web-line" x1="16" y1="16" x2="24" y2="8"/>
+  <line class="web-line" x1="16" y1="16" x2="24" y2="24"/>
+  <line class="web-line" x1="16" y1="16" x2="8" y2="24"/>
+  <line class="web-line" x1="16" y1="16" x2="8" y2="8"/>
   
-  <!-- Network nodes -->
-  <circle class="node" cx="8" cy="8" r="3"/>
-  <circle class="node" cx="24" cy="8" r="3"/>
-  <circle class="node" cx="8" cy="24" r="3"/>
-  <circle class="node" cx="24" cy="24" r="3"/>
-  <circle class="highlight" cx="16" cy="16" r="3"/>
+  <!-- Concentric web circles -->
+  <circle class="web-line" cx="16" cy="16" r="6"/>
+  <circle class="web-line" cx="16" cy="16" r="10"/>
+  
+  <!-- Web intersections -->
+  <circle class="node" cx="16" cy="6" r="1"/>
+  <circle class="node" cx="26" cy="16" r="1"/>
+  <circle class="node" cx="16" cy="26" r="1"/>
+  <circle class="node" cx="6" cy="16" r="1"/>
+  <circle class="node" cx="22" cy="10" r="1"/>
+  <circle class="node" cx="22" cy="22" r="1"/>
+  <circle class="node" cx="10" cy="22" r="1"/>
+  <circle class="node" cx="10" cy="10" r="1"/>
+  
+  <!-- Center spider -->
+  <circle class="center" cx="16" cy="16" r="2"/>
 </svg>
